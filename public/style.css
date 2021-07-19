@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient( #f0c033,rgb(216, 212, 212),#f0c033);
+}
+.nav-item , .navbar-brand{
+    margin: 2px 10px;
+}
+.fab{
+    color: white;
+    margin-right: 15px;
+}
+#cont1{
+    background-color: blue;
+    padding: 10px 30px 30px 30px;
+    margin-top: auto;
+    border-radius: 15px;
+}
+#mainhead{
+    color: white;
+}
+#cont2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+#Inrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submiting{
+    margin-top: 20px;
+}
+#floatingTextarea{
+    height: 130px;
+}
+#indexcont{
+    margin: auto;
+}
+#detailed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#mypic{
+    width: 400px;
+    height: 400px;
+}
+#naming{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+#aboutcard{
+    width: 18rem;
+    box-shadow: 6px 6px 6px rgb(153, 153, 153);
+}
+#aboutcardpic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cardpic{
+    width: 150px;
+    height: 150px;
+}
+#downloadCV{
+    margin-top: 20px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#academicstable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mycrd{
+    color: white;
+    width: 18rem;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.skillscard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skillspic{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    margin-top: auto;
+}
+@media (min-width: 992px) and (max-width: 1240px) {
+    .nav-item , .navbar-brand{
+        margin: 2px 5px;
+    }
+    .fab{
+        margin-right: 10px;
+    }
+    #mypic{
+        width: 300px;
+        height: 300px;
+    }   
+    #muted{
+        font-size: 14px;
+    }
+    #naming{
+        font-size: 30px;
+    }
+    #downloadCV{
+        margin-top: 18px;
+        width: 180px;
+        font-size: 18px;
+    }
+    .mycrd{
+        color: white;
+        width: 15rem;
+        height: 250px;
+    }
+    .skillspic{
+        width: 150px;
+        height: 150px;
+    }
+    #cont1{
+        padding: 10px 20px 20px 20px;
+        border-radius: 12px;
+    }
+    #cont2{
+        padding: 15px;
+        border-radius: 25px;
+    }
+    .form-label , #commentlabel{
+        font-size: 14px;
+    }
+    .form-control{
+        height: 25px;
+        font-size: 20px;
+    }
+    #floatingTextarea{
+        height: 110px;
+    }
+    #submiting{
+        margin-top: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {  
+    #mypic{
+        width: 250px;
+        height: 250px;
+    }
+    #muted{
+        font-size: 16px;
+    }
+    #naming{
+        font-size: 26px;
+    }
+    #fieldinfo{
+        font-size: 21px;
+    }
+    #aboutcard{
+        width: 15rem;
+        box-shadow: 4px 4px 4px rgb(153, 153, 153);
+    }
+    #cardpic{
+        width: 120px;
+        height: 120px;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    #downloadCV{
+        margin-top: 15px;
+        width: 150px;
+        font-size: 15px;
+    }
+    .mycrd{
+        color: white;
+        width: 11rem;
+        height: 200px;
+    }
+    .skillspic{
+        width: 100px;
+        height: 100px;
+    }
+    #cont1{
+        padding: 10px 15px 15px 15px;
+        border-radius: 10px;
+    }
+    #cont2{
+        padding: 12px;
+        border-radius: 20px;
+    }
+    #mainhead{
+        font-size: 22px;
+    }
+    .form-label , #commentlabel{
+        font-size: 14px;
+    }
+    .form-control{
+        height: 25px;
+        font-size: 20px;
+    }
+    #floatingTextarea{
+        height: 90px;
+    }
+    #submiting{
+        margin-top: 15px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-toggler{
+        font-size: 10px;
+    }
+    .mine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    #mypic{
+        width: 200px;
+        height: 200px;
+    }
+    #muted{
+        font-size: 14px;
+    }
+    #naming{
+        font-size: 22px;
+    }
+    #fieldinfo{
+        font-size: 20px;
+    }
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    #aboutcard{
+        width: 13rem;
+        box-shadow: 3px 3px 3px rgb(153, 153, 153);
+    }
+    #cardpic{
+        width: 100px;
+        height: 100px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+    #cllg , #interest{
+        font-size: 17px;
+    }
+    #downloadCV{
+        margin-top: 13px;
+        width: 140px;
+        font-size: 14px;
+    }
+    .mycrd{
+        color: white;
+        width: 13rem;
+        height: 240px;
+    }
+    .skillspic{
+        width: 140px;
+        height: 130px;
+    }
+    .accorheads{
+        font-size: 15px;
+    }
+    .accorbody{
+        font-size: 12px;
+    }
+    #cont1{
+        padding: 8px 12px 12px 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    #cont2{
+        padding: 12px;
+        border-radius: 15px;
+    }
+    #mainhead{
+        font-size: 18px;
+    }
+    .form-label , #commentlabel{
+        font-size: 12px;
+    }
+    .form-control{
+        height: 24px;
+        font-size: 15px;
+    }
+    #floatingTextarea{
+        height: 80px;
+    }
+    #submiting{
+        margin-top: 12px;
+    }
+}
+@media (min-width: 260px) and (max-width: 575px) {
+    .mine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    #mypic{
+        width: 160px;
+        height: 160px;
+    }
+    #muted{
+        font-size: 12px;
+    }
+    #naming{
+        font-size: 18px;
+    }
+    #fieldinfo{
+        font-size: 15px;
+    }
+    .aboutme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    #aboutcard{
+        width: 13rem;
+        box-shadow: 3px 3px 3px rgb(153, 153, 153);
+    }
+    #cardpic{
+        width: 100px;
+        height: 100px;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 12px;
+    }
+    #cllg , #interest{
+        font-size: 15px;
+    }
+    #downloadCV{
+        margin-top: 12px;
+        width: 120px;
+        font-size: 12px;
+    }
+    #eduhead , #skillhead , #projhead , #mainhead{
+        font-size: 20px;
+    }
+    #academicstable{
+        font-size: 12px;
+    }
+    .mycrd{
+        color: white;
+        width: 13rem;
+        height: 240px;
+    }
+    .skillspic{
+        width: 140px;
+        height: 130px;
+    }
+    .accorheads{
+        font-size: 13px;
+    }
+    .accorbody{
+        font-size: 10px;
+    }    
+    #cont1{
+        padding: 8px 10px 10px 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+    }
+    #cont2{
+        padding: 10px;
+        border-radius: 12px;
+    }
+    .form-label , #commentlabel{
+        font-size: 12px;
+    }
+    .form-control{
+        height: 24px;
+        font-size: 14px;
+    }
+    #floatingTextarea{
+        height: 65px;
+    }
+    #submiting{
+        margin-top: 10px;
+    }
+}
+@media (min-width: 260px) and (max-width: 350px) {
+    
+    #eduhead , #skillhead , #projhead , #mainhead{
+        font-size: 17px;
+    }
+    #academicstable{
+        font-size: 8.8px;
+    }
+    .mycrd{
+        color: white;
+        width: 11rem;
+        height: 210px;
+    }
+    .skillspic{
+        width: 120px;
+        height: 100px;
+    } 
+    #cont1{
+        padding: 6px 8px 8px 8px;
+        border-radius: 6px;
+    }
+    #cont2{
+        padding: 8px;
+        border-radius: 10px;
+    }
+    #commentsHelp{
+        font-size: 10px;
+    }
+}

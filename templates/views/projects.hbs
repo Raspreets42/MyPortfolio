@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+
+<body>
+    {{>navbar}}
+    <div class="container" id="indexcont">
+        <h3 class="text-center my-4" id="projhead"><i class="fas fa-clipboard-list fa-lg"></i> My Projects</h3>
+        <div class="skillscard">
+            <div class="col-12 col-md-10 ">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item" style="background-color: black; color:white">
+                        <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <h5 class=" accorheads">Calculator</h5>
+                            </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body accorbody">
+                                It is a simple calculator application which can perform basic arithmetic operations like
+                                addition, subtraction, multiplication and division.
+                                In this React app calculator , I have used buttons for 0 to 9 numbered , for operators
+                                like + , - , * , / , % , = and a clear and delete buttons.
+                                It works just as a simple calculator.
+                                <h6 class=" accorbody"> Project-Link :
+                                    <a href="http://calculator4u.herokuapp.com" target="_blank"
+                                        rel="noopener noreferrer">https://calculator4u.herokuapp.com</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="background-color: black; color:white">
+                        <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h5 class=" accorheads">Singh's Cafe Website</h5>
+                            </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body accorbody">
+                                This is an fully responsive website. It uses Bootstrap's Navigation bar ,
+                                Carousel , Cards , Footer , Buttons and more.
+                                Its shows all the Singh's Cafe informations and prices of all the dishes the
+                                cafe have on their menu.
+                                It contains Home , Menu and About pages on the navbar which shows different
+                                information like Menu page have all the dishes of the cafe and About page have all the
+                                information about project.
+                                All Dishes have Details buttons which tells us what categories of that dishes are
+                                available in the cafe.
+                                <h6 class=" accorbody">Project-link :
+                                    <a href="http://singhscafe.herokuapp.com" target="_blank"
+                                        rel="noopener noreferrer">https://singhscafe.herokuapp.com</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="background-color: black; color:white">
+                        <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h5 class=" accorheads">ToDo - List Website</h5>
+                            </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body accorbody">
+                                It is an To Do list React application which is introduced by Bootstrap and ReactJs. It
+                                uses Bootstrap buttons , tables , Navigation bar and footer for the better UI and
+                                responsiveness.
+                                It also have Javascript's DOM and JSON to store this data in the localstorage.
+                                This is fully responsive website.
+                                <h6 class=" accorbody">Project-Link :
+                                    <a href="http://todoslist4u.herokuapp.com" target="_blank"
+                                        rel="noopener noreferrer">https://todoslist4u.herokuapp.com</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="background-color: black; color:white">
+                        <h3 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h5 class=" accorheads">Piano Website</h5>
+                            </button>
+                        </h3>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body accorbody">
+                                This is an fully responsive website. It uses Bootstrap's Navigation bar , Footer ,
+                                Buttons and more.
+                                It have 8 sounds that are Sa , Re , Ga , Ma , Pa , Dha , Ni , Sa on clicking the 8
+                                different white buttons and 5 different sounds on 5 different black buttons.
+                                It also have Some colour themes which we can set just by clicking the buttons in the
+                                Change theme section below piano.
+                                <h6 class=" accorbody">Project-link :
+                                    <a href="http://rspiano.herokuapp.com" target="_blank"
+                                        rel="noopener noreferrer">https://rspiano.herokuapp.com</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" style="background-color: black; color:white">
+                        <h3 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <h5 class=" accorheads">API based Weather Application</h5>
+                            </button>
+                        </h3>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body accorbody">
+                                This is simple API based Weather Application which provides All the data about weather
+                                of search city. It gets all the data from the Weather API used in my project.
+                                This project is build on NodeJs and ExpressJs and its fully responsive Application.
+                                This project also used HandleBars to render web pages to the client side from data on
+                                the server-side.
+                                <h6 class=" accorbody">Project code link :
+                                    <a href="http://github.com/Raspreets42/ExpressWeatherApp" target="_blank"
+                                        rel="noopener noreferrer">https://github.com/Raspreets42/ExpressWeatherApp</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

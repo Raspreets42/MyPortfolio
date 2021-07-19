@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{>header}}
+
+<body>
+    {{>navbar}}
+
+    <div class="container " id="cont1">
+        <h3 class="text-center" id="mainhead"><i class="fas fa-comment-dots fa-lg"></i> Feedback Form</h3>
+        <div class="container my-2" id="cont2">
+            <form action="/feedback" method="POST">
+                <div class="mb-3">
+                    <div class="row" id="Inrow">
+                        <div class="col-12 col-md-5 my-2">
+                            <label for="inputFName" class="form-label">First Name:</label>
+                            <input type="text" class="form-control" name="FirstName" id="inputFName">
+                        </div>
+                        <div class="col-12 col-md-5 my-2">
+                            <label for="inputLName" class="form-label">Last Name:</label>
+                            <input type="text" class="form-control" name="LastName" id="inputLName">
+                        </div>
+                        <div class="col-12 col-md-5 my-2">
+                            <label for="inputContact" class="form-label">Contact Number:</label>
+                            <input type="number" class="form-control" name="Phone" id="inputContact">
+                        </div>
+                        <div class="col-12 col-md-5 my-2">
+                            <label for="inputEmail" class="form-label">Email :</label>
+                            <input type="email" class="form-control" name="Email" id="inputEmail">
+                        </div>
+                        <div class="col-12 col-md-5 my-2">
+                            <label for="inputAge" class="form-label">Age :</label>
+                            <input type="number" class="form-control" name="Age" id="inputAge" min="1" max="100"
+                                value="20">
+                        </div>
+                        <div class="col-12 col-md-5 my-2">
+                            <label class="form-label">Gender :</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Gender" id="inputRadio1" value="male"
+                                    checked>
+                                <label class="form-check-label" for="inputRadio1"> Male </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Gender" id="inputRadio2"
+                                    value="female">
+                                <label class="form-check-label" for="inputRadio2"> Female </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="Gender" id="inputRadio3"
+                                    value="other">
+                                <label class="form-check-label" for="inputRadio3"> Other </label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-10 my-2">
+                            <div class="form-floating">
+                                <textarea class="form-control" name="Comments" id="floatingTextarea"
+                                    aria-describedby="commentsHelp"></textarea>
+                                <label for="floatingTextarea" id="commentlabel">Comments</label>
+                                <div id="commentsHelp" class="form-text">Leave a Comment here, I'll reach You soon.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center" id="submiting">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

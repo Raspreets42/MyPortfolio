@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+
+<body>
+    {{>navbar}}
+    <div class="container" id="indexcont">
+        <div class="row">
+            <div class="col-12 py-2 col-md-6 aboutme">
+                <div class="card py-2 text-center" id="aboutcard"
+                    style="background-color: #f19447;">
+                    <div id="aboutcardpic">
+                        <img src="/images/mylogo.png" class="card-img-top" alt="..." id="cardpic">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Raspreet Singh Pasrija</h4>
+                        <hr>
+                        <h6 class="card-text">
+                            <span style="font-weight: bold;"> <i class="fas fa-envelope-square fa-lg"></i> :</span>
+                            raspreets89@gmail.com
+                        </h6>
+                        <hr>
+                        <h6 class="card-text">
+                            <span style="font-weight: bold;"> <i class="fas fa-phone-alt fa-lg"></i> :</span>
+                            +91 8962942505
+                        </h6>
+                        <hr>
+                        <h6 class="card-text">
+                            <span style="font-weight: bold;"> <i class="fas fa-map-marker-alt fa-lg"></i> :</span>
+                            Than Khamaria, Bemetara, Chhattisgarh - 491338
+                        </h6>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-6 aboutme" id="detailed">
+                <h4 id="naming">I'm Raspreet Singh Pasrija ,</h4>
+                <h5 id="cllg">a computer science student from Rungta College of Engineering and Technology, Bhilai, Chhattisgarh .
+                </h5>
+                <h5 id="interest">I love singing and travelling to new places. </h5>
+                <a href="/images/myCV.pdf" download="">
+                    <button type="button" class="btn btn-outline-danger" id="downloadCV">
+                        <i class="fas fa-download"></i> Download CV
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
