@@ -11,13 +11,11 @@ const feedbackSchema = new mongoose.Schema({
     },
     Phone : {
         type:String,
-        required:true,
-        unique:true
+        required:true
     },
     Email : {
         type:String,
-        required:true,
-        unique:true
+        required:true
     },
     Age : {
         type:Number,

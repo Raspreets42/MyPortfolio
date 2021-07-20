@@ -52,7 +52,7 @@ app.post('/feedback', async (req, res) => {
     });
 
     const received = await giveFeedback.save();
-    res.status(201).render("index");
+    res.status(201).render("feedback");
 
     } catch (error) {
         res.status(400).send(error);

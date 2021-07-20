@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://localhost:27017/raspreetportfolio" , {
-    useNewUrlParser:true , 
-    useUnifiedTopology:true,
-    useCreateIndex:true
-} ).then( () => {
+mongoose.connect("mongodb+srv://raspreetdb:dbpreetsingh@cluster0.lh13d.mongodb.net/raspreetportfolio?retryWrites=true&w=majority", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+}).then(() => {
     console.log(`Connection successful`);
-}).catch( (err) => {
+}).catch((err) => {
     console.log(err);
 })
